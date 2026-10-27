@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>3부처 보도자료 검색</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>5.25 호우 대응 3부처 보도자료 검색</h1>
+    <p>행정안전부·기상청·경찰청 보도자료 3건을 검색하고 본문 전체를 확인하세요.</p>
+    <label for="q">보도자료 검색</label>
+    <div class="search"><input id="q" type="search" placeholder="제목·본문·부처 검색 (예: 호우, 경찰청)" autocomplete="off"><button id="reset" type="button">검색 초기화</button></div>
+    <p id="count" role="status" aria-live="polite" aria-atomic="true"></p>
+  </header>
+  <main id="list" aria-label="보도자료 검색 결과"></main>
+  <footer>출처: 그린10세트 3과목 첨부 보도자료 · 교육용 가상 자료<br>부처별 본문의 수치와 표현은 제공된 원문 그대로 표시합니다.</footer>
+  <script src="데이터.js"></script>
+  <script src="app.js"></script>
+</body></html>

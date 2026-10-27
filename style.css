@@ -1,0 +1,18 @@
+*{box-sizing:border-box}
+body{font-family:system-ui,sans-serif;margin:0 auto;padding:1rem;max-width:880px;color:#202630;background:#fff;line-height:1.6;overflow-wrap:anywhere}
+header{background:#fff;padding:1rem 0;border-bottom:1px solid #ddd}
+h1{font-size:clamp(1.35rem,4.5vw,1.85rem);line-height:1.35;margin:0 0 .75rem}
+header p,footer{color:#526070;font-size:.9rem}
+label{display:block;font-weight:600;margin-bottom:.4rem}
+.search{display:flex;gap:.5rem}
+input{padding:.7rem;font:inherit;flex:1;min-width:0;border:1px solid #8994a3;border-radius:6px}
+button{padding:.7rem;font:inherit;cursor:pointer;background:#f3f5f8;color:#202630;border:1px solid #8994a3;border-radius:6px}
+input:focus-visible,button:focus-visible{outline:3px solid #0057b8;outline-offset:2px}
+#count{font-weight:600;color:#202630;margin-bottom:.3rem}
+.card{border:1px solid #d5dce5;padding:1rem;margin:1rem 0;border-radius:8px}
+.label{color:#0057b8;font-weight:600}
+.title{font-size:1.1rem;font-weight:600;margin:.35rem 0 .75rem}
+.body{white-space:pre-wrap;color:#353f4d;font-size:.95rem}
+.empty{padding:2rem 1rem;background:#f3f5f8;text-align:center;border-radius:8px}
+footer{border-top:1px solid #ddd;padding:1rem 0}
+@media(max-width:420px){.search{flex-direction:column}button{align-self:flex-start}}
